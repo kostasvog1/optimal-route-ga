@@ -12,9 +12,11 @@ if just name locations are passed, google api is used to find the distances of a
 
 ## Setup
 activate your virtualenv
+```
 pip install -r requirements.txt
-
+```
 ## Example
+```python
 from src.optimal_route_ga import OptimalRoute
 
 GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
@@ -23,12 +25,14 @@ all_waypoints = ["Kalamaria, Greece",
                  "Olympos, Greece",
                  "Kalampaka, Greece",
                  "Metsovo, Greece",
-                "Katerini, Greece",
-                "Trikala, Greece",
-                "kilkis, Greece",
-                'kozani, Greece',
-                'Salamina, Greece']
-                
+                 "Katerini, Greece",
+                 "Trikala, Greece",
+                 "kilkis, Greece",
+                 "kozani, Greece",
+                 "Salamina, Greece"]
+          
 OptimalRoute_kalamaria_milan = OptimalRoute(waypoint_combinations_distance_df=None,waypoints_lst = all_waypoints,api_key=GOOGLE_API_KEY,verbose=False)
 optimal_route = OptimalRoute_kalamaria_milan.run_genetic_algorithm()
 print(optimal_route)
+```
+
