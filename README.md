@@ -11,6 +11,7 @@ Algo to calculate optimal route across different locations.
 if just name locations are passed, google api is used to find the distances of all A to B combinations
 
 ## Setup
+activate your virtualenv
 pip install -r requirements.txt
 
 ## Example
