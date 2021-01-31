@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b49db5b750f5497ab64ef5df4cdb6b22 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b49db5b750f5497ab64ef5df4cdb6b22" ></div>
+        
+</body>
+<script>    
+    
+            var map_b49db5b750f5497ab64ef5df4cdb6b22 = L.map(
+                "map_b49db5b750f5497ab64ef5df4cdb6b22",
+                {
+                    center: [60.5618153, 6.6350921],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_35ff55aa66a84aba970818bd7b366ec3 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var marker_d9dd1c26988a429a9b83077d680e5452 = L.marker(
+                [60.3975672, 5.3245493],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_0e35ef0ba0054e5b8453db73d03587aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9dd1c26988a429a9b83077d680e5452.setIcon(icon_0e35ef0ba0054e5b8453db73d03587aa);
+        
+    
+        var popup_7c6a47941d8f47989db925475b3a6778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e02df071f0545c88d815eb66fc2a94d = $(`<div id="html_3e02df071f0545c88d815eb66fc2a94d" style="width: 100.0%; height: 100.0%;">Bryggen, Norway</div>`)[0];
+            popup_7c6a47941d8f47989db925475b3a6778.setContent(html_3e02df071f0545c88d815eb66fc2a94d);
+        
+
+        marker_d9dd1c26988a429a9b83077d680e5452.bindPopup(popup_7c6a47941d8f47989db925475b3a6778)
+        ;
+
+        
+    
+    
+            var marker_9588775d64ff475e95d95c2e90c503d3 = L.marker(
+                [62.10150600000001, 7.094081699999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_84b628f21a684d2bb598908e55736d1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9588775d64ff475e95d95c2e90c503d3.setIcon(icon_84b628f21a684d2bb598908e55736d1a);
+        
+    
+        var popup_481db47292be46319af5c5569dce5c02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70249dbf19794e6cbd0ee1ece6d6d002 = $(`<div id="html_70249dbf19794e6cbd0ee1ece6d6d002" style="width: 100.0%; height: 100.0%;">Geirangerfjord, Norway</div>`)[0];
+            popup_481db47292be46319af5c5569dce5c02.setContent(html_70249dbf19794e6cbd0ee1ece6d6d002);
+        
+
+        marker_9588775d64ff475e95d95c2e90c503d3.bindPopup(popup_481db47292be46319af5c5569dce5c02)
+        ;
+
+        
+    
+    
+            var marker_b5a01d281b2e48009e7d1182ad676c05 = L.marker(
+                [62.45492799999999, 7.6660498],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_a8b88bcd076041ccaa639f386a6ee57b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5a01d281b2e48009e7d1182ad676c05.setIcon(icon_a8b88bcd076041ccaa639f386a6ee57b);
+        
+    
+        var popup_dca3c9eb061c49b09d09f34bfd65018b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64b23bd49cbd4de3b55a68e3be06262e = $(`<div id="html_64b23bd49cbd4de3b55a68e3be06262e" style="width: 100.0%; height: 100.0%;">Trollstigen, Norway</div>`)[0];
+            popup_dca3c9eb061c49b09d09f34bfd65018b.setContent(html_64b23bd49cbd4de3b55a68e3be06262e);
+        
+
+        marker_b5a01d281b2e48009e7d1182ad676c05.bindPopup(popup_dca3c9eb061c49b09d09f34bfd65018b)
+        ;
+
+        
+    
+    
+            var marker_4b0d4a56e8464de8bc4d283bc843975a = L.marker(
+                [60.86321400000001, 7.113701],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_6d685bb97343474abc556d7a25159fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b0d4a56e8464de8bc4d283bc843975a.setIcon(icon_6d685bb97343474abc556d7a25159fd2);
+        
+    
+        var popup_0329fed8acd7466eb2a2bad921338355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20ecb2528a3d464287bed1bd557cf3bc = $(`<div id="html_20ecb2528a3d464287bed1bd557cf3bc" style="width: 100.0%; height: 100.0%;">Flåmsbana Norway</div>`)[0];
+            popup_0329fed8acd7466eb2a2bad921338355.setContent(html_20ecb2528a3d464287bed1bd557cf3bc);
+        
+
+        marker_4b0d4a56e8464de8bc4d283bc843975a.bindPopup(popup_0329fed8acd7466eb2a2bad921338355)
+        ;
+
+        
+    
+    
+            var marker_628162692d9a49fabd0560e76b5803ab = L.marker(
+                [60.124167, 6.74],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_0e63f80e1b964f4aaa2f137c239da31b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_628162692d9a49fabd0560e76b5803ab.setIcon(icon_0e63f80e1b964f4aaa2f137c239da31b);
+        
+    
+        var popup_49b0891d70964a53919f53aab60376bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cde1e314f965404d81f88325101fa4f5 = $(`<div id="html_cde1e314f965404d81f88325101fa4f5" style="width: 100.0%; height: 100.0%;">Trolltunga, Norway</div>`)[0];
+            popup_49b0891d70964a53919f53aab60376bf.setContent(html_cde1e314f965404d81f88325101fa4f5);
+        
+
+        marker_628162692d9a49fabd0560e76b5803ab.bindPopup(popup_49b0891d70964a53919f53aab60376bf)
+        ;
+
+        
+    
+    
+            var marker_47a49a670c71401a8c8d45c63aa206a5 = L.marker(
+                [59.00491489999999, 6.316823299999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_4093915646d64bb6a8c942352dafa9d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47a49a670c71401a8c8d45c63aa206a5.setIcon(icon_4093915646d64bb6a8c942352dafa9d3);
+        
+    
+        var popup_27664ad698ab4e52a1766b0f8d7de08f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a20ae25fcc354d109c56b74eb6f63bc1 = $(`<div id="html_a20ae25fcc354d109c56b74eb6f63bc1" style="width: 100.0%; height: 100.0%;">Lysefjord Norway</div>`)[0];
+            popup_27664ad698ab4e52a1766b0f8d7de08f.setContent(html_a20ae25fcc354d109c56b74eb6f63bc1);
+        
+
+        marker_47a49a670c71401a8c8d45c63aa206a5.bindPopup(popup_27664ad698ab4e52a1766b0f8d7de08f)
+        ;
+
+        
+    
+    
+            var marker_838d50848d4b4762961790698c8f0f5b = L.marker(
+                [58.98641, 6.190439599999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_77494b60de6d4d3b87aa5e27bd8048fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_838d50848d4b4762961790698c8f0f5b.setIcon(icon_77494b60de6d4d3b87aa5e27bd8048fc);
+        
+    
+        var popup_163475a9fa8a4be499421e58117e05a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aadc241b82747e795bfc732c8a129b8 = $(`<div id="html_8aadc241b82747e795bfc732c8a129b8" style="width: 100.0%; height: 100.0%;">Pulpit Rock, Norway</div>`)[0];
+            popup_163475a9fa8a4be499421e58117e05a7.setContent(html_8aadc241b82747e795bfc732c8a129b8);
+        
+
+        marker_838d50848d4b4762961790698c8f0f5b.bindPopup(popup_163475a9fa8a4be499421e58117e05a7)
+        ;
+
+        
+    
+    
+            var marker_238732246ab54d008cf723976956edde = L.marker(
+                [60.3975672, 5.3245493],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_93f47e41845346ab9f63573fcd27ed71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_238732246ab54d008cf723976956edde.setIcon(icon_93f47e41845346ab9f63573fcd27ed71);
+        
+    
+        var popup_b06a4d324f56409c8347b393a50b442f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7188533f8fed41c7ba73b69dcee2a8ba = $(`<div id="html_7188533f8fed41c7ba73b69dcee2a8ba" style="width: 100.0%; height: 100.0%;">Bryggen, Norway</div>`)[0];
+            popup_b06a4d324f56409c8347b393a50b442f.setContent(html_7188533f8fed41c7ba73b69dcee2a8ba);
+        
+
+        marker_238732246ab54d008cf723976956edde.bindPopup(popup_b06a4d324f56409c8347b393a50b442f)
+        ;
+
+        
+    
+    
+            var marker_45334e73c9b648f6b8f847c203a9e953 = L.marker(
+                [62.10150600000001, 7.094081699999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_0b26db32e0b843a1b5ccd09de709e4a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45334e73c9b648f6b8f847c203a9e953.setIcon(icon_0b26db32e0b843a1b5ccd09de709e4a7);
+        
+    
+        var popup_7b6d3230263843fc874814c2d2ecf227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71ab5f5a7bc54aafb2cbcc3098b7b989 = $(`<div id="html_71ab5f5a7bc54aafb2cbcc3098b7b989" style="width: 100.0%; height: 100.0%;">Geirangerfjord, Norway</div>`)[0];
+            popup_7b6d3230263843fc874814c2d2ecf227.setContent(html_71ab5f5a7bc54aafb2cbcc3098b7b989);
+        
+
+        marker_45334e73c9b648f6b8f847c203a9e953.bindPopup(popup_7b6d3230263843fc874814c2d2ecf227)
+        ;
+
+        
+    
+    
+            var marker_5535315ef52e4b258f4ec8dabcd4d144 = L.marker(
+                [62.45492799999999, 7.6660498],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_5b438af164aa49d298465841eb414eaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5535315ef52e4b258f4ec8dabcd4d144.setIcon(icon_5b438af164aa49d298465841eb414eaa);
+        
+    
+        var popup_73fb41e9008d4f94a297d8d3d802d064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f578a3a70b99407e9a6873b30f041f0e = $(`<div id="html_f578a3a70b99407e9a6873b30f041f0e" style="width: 100.0%; height: 100.0%;">Trollstigen, Norway</div>`)[0];
+            popup_73fb41e9008d4f94a297d8d3d802d064.setContent(html_f578a3a70b99407e9a6873b30f041f0e);
+        
+
+        marker_5535315ef52e4b258f4ec8dabcd4d144.bindPopup(popup_73fb41e9008d4f94a297d8d3d802d064)
+        ;
+
+        
+    
+    
+            var marker_b2b81067debb403182d360ddabdf0b7f = L.marker(
+                [60.86321400000001, 7.113701],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_3b65e1e5030d4b3c8520a36b8a2ca492 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2b81067debb403182d360ddabdf0b7f.setIcon(icon_3b65e1e5030d4b3c8520a36b8a2ca492);
+        
+    
+        var popup_07c273b1908c474887cf8a125f2124a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e98ff3eb3c1945d2a7ccd4b4e075cba4 = $(`<div id="html_e98ff3eb3c1945d2a7ccd4b4e075cba4" style="width: 100.0%; height: 100.0%;">Flåmsbana Norway</div>`)[0];
+            popup_07c273b1908c474887cf8a125f2124a2.setContent(html_e98ff3eb3c1945d2a7ccd4b4e075cba4);
+        
+
+        marker_b2b81067debb403182d360ddabdf0b7f.bindPopup(popup_07c273b1908c474887cf8a125f2124a2)
+        ;
+
+        
+    
+    
+            var marker_7c3d6bc7bc0f4950a4cf0d2d8c487dd9 = L.marker(
+                [60.124167, 6.74],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_e3fcf38730fa454685c6b81f0179ba03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c3d6bc7bc0f4950a4cf0d2d8c487dd9.setIcon(icon_e3fcf38730fa454685c6b81f0179ba03);
+        
+    
+        var popup_80190fdb54d342c68a436dbba88f1ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8963fc42dfce4dd39955abf00cc242f8 = $(`<div id="html_8963fc42dfce4dd39955abf00cc242f8" style="width: 100.0%; height: 100.0%;">Trolltunga, Norway</div>`)[0];
+            popup_80190fdb54d342c68a436dbba88f1ff9.setContent(html_8963fc42dfce4dd39955abf00cc242f8);
+        
+
+        marker_7c3d6bc7bc0f4950a4cf0d2d8c487dd9.bindPopup(popup_80190fdb54d342c68a436dbba88f1ff9)
+        ;
+
+        
+    
+    
+            var marker_e718e3974f0e4f0fa4ddd82187c130c3 = L.marker(
+                [59.00491489999999, 6.316823299999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_5d5d98800561475f96e24fcb6903eeb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e718e3974f0e4f0fa4ddd82187c130c3.setIcon(icon_5d5d98800561475f96e24fcb6903eeb9);
+        
+    
+        var popup_77b6e8cefc674da7b2b553112a03ab2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9cd4af574984cdfbb6ab609b76ac979 = $(`<div id="html_e9cd4af574984cdfbb6ab609b76ac979" style="width: 100.0%; height: 100.0%;">Lysefjord Norway</div>`)[0];
+            popup_77b6e8cefc674da7b2b553112a03ab2d.setContent(html_e9cd4af574984cdfbb6ab609b76ac979);
+        
+
+        marker_e718e3974f0e4f0fa4ddd82187c130c3.bindPopup(popup_77b6e8cefc674da7b2b553112a03ab2d)
+        ;
+
+        
+    
+    
+            var marker_2df87b09f8ea4e75b1871a10ea1d3f31 = L.marker(
+                [58.98641, 6.190439599999999],
+                {}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var icon_383d30f1d5e440cc82bb8d0c4df0839f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2df87b09f8ea4e75b1871a10ea1d3f31.setIcon(icon_383d30f1d5e440cc82bb8d0c4df0839f);
+        
+    
+        var popup_7f36820d2b174717a6126f311b5ba323 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d381749083c649ee9c3045ba94a8f851 = $(`<div id="html_d381749083c649ee9c3045ba94a8f851" style="width: 100.0%; height: 100.0%;">Pulpit Rock, Norway</div>`)[0];
+            popup_7f36820d2b174717a6126f311b5ba323.setContent(html_d381749083c649ee9c3045ba94a8f851);
+        
+
+        marker_2df87b09f8ea4e75b1871a10ea1d3f31.bindPopup(popup_7f36820d2b174717a6126f311b5ba323)
+        ;
+
+        
+    
+    
+            var poly_line_f1e0db4800314492a6cb546e8362c345 = L.polyline(
+                [[60.3975672, 5.3245493], [62.10150600000001, 7.094081699999999]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_6bba3f8468874a64bd3603d04edcb432 = L.polyline(
+                [[62.10150600000001, 7.094081699999999], [62.45492799999999, 7.6660498]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_2a4186b34b1e4ae4aadcbe01fd263dc1 = L.polyline(
+                [[62.45492799999999, 7.6660498], [60.86321400000001, 7.113701]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_34fa7a4b06dd46708a1d2ba0c677b710 = L.polyline(
+                [[60.86321400000001, 7.113701], [60.124167, 6.74]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_495f44100a5d46a8b6ab06e6690af7d0 = L.polyline(
+                [[60.124167, 6.74], [59.00491489999999, 6.316823299999999]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_a386fd83026246bc952abc41daf2a961 = L.polyline(
+                [[59.00491489999999, 6.316823299999999], [58.98641, 6.190439599999999]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+    
+            var poly_line_0b8c7b0a49e94b35977a8cccd2e51d93 = L.polyline(
+                [[58.98641, 6.190439599999999], [60.3975672, 5.3245493]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b49db5b750f5497ab64ef5df4cdb6b22);
+        
+</script>

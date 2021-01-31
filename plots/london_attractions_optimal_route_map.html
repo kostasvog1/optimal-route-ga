@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_97a2a15ea5f54a86b947b53b0776c0e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_97a2a15ea5f54a86b947b53b0776c0e6" ></div>
+        
+</body>
+<script>    
+    
+            var map_97a2a15ea5f54a86b947b53b0776c0e6 = L.map(
+                "map_97a2a15ea5f54a86b947b53b0776c0e6",
+                {
+                    center: [51.505157111111096, -0.12756256666666665],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c94226d3e6040d28420a05e80180e73 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var marker_8248179dabb044c999cd15124352446d = L.marker(
+                [51.509998, -0.1350018],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_3872826bd9ea4a13b19e24a3aaad8694 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8248179dabb044c999cd15124352446d.setIcon(icon_3872826bd9ea4a13b19e24a3aaad8694);
+        
+    
+        var popup_855bb68e21d041e0ac5493d80b73de76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a62737acb79842b49af5e0ec565ba73f = $(`<div id="html_a62737acb79842b49af5e0ec565ba73f" style="width: 100.0%; height: 100.0%;">Piccadilly Circus</div>`)[0];
+            popup_855bb68e21d041e0ac5493d80b73de76.setContent(html_a62737acb79842b49af5e0ec565ba73f);
+        
+
+        marker_8248179dabb044c999cd15124352446d.bindPopup(popup_855bb68e21d041e0ac5493d80b73de76)
+        ;
+
+        
+    
+    
+            var marker_046205b809da46689c23fe8798682aa0 = L.marker(
+                [51.5072682, -0.1657303],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_6fc01b5a03524e5bb8e7c9b61b9ac57f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_046205b809da46689c23fe8798682aa0.setIcon(icon_6fc01b5a03524e5bb8e7c9b61b9ac57f);
+        
+    
+        var popup_fdc5700bd64b48fdab3945b563ab0530 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc2f31b94b3646c69b36abafb8ba455e = $(`<div id="html_cc2f31b94b3646c69b36abafb8ba455e" style="width: 100.0%; height: 100.0%;">Hyde Park, London</div>`)[0];
+            popup_fdc5700bd64b48fdab3945b563ab0530.setContent(html_cc2f31b94b3646c69b36abafb8ba455e);
+        
+
+        marker_046205b809da46689c23fe8798682aa0.bindPopup(popup_fdc5700bd64b48fdab3945b563ab0530)
+        ;
+
+        
+    
+    
+            var marker_8784d464a0d54ef09c6620be38d36721 = L.marker(
+                [51.501364, -0.14189],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_6176bd1d0afd4e789fb36ce1b7574246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8784d464a0d54ef09c6620be38d36721.setIcon(icon_6176bd1d0afd4e789fb36ce1b7574246);
+        
+    
+        var popup_5a6164e7682b45678e741df3ba361a89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_325fe48f36fd4374bfafa1a2d30c151b = $(`<div id="html_325fe48f36fd4374bfafa1a2d30c151b" style="width: 100.0%; height: 100.0%;">Buckingham Palace, London</div>`)[0];
+            popup_5a6164e7682b45678e741df3ba361a89.setContent(html_325fe48f36fd4374bfafa1a2d30c151b);
+        
+
+        marker_8784d464a0d54ef09c6620be38d36721.bindPopup(popup_5a6164e7682b45678e741df3ba361a89)
+        ;
+
+        
+    
+    
+            var marker_72626382107f4925bf2aced49b268620 = L.marker(
+                [51.4986769, -0.1289446],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_91dd8915fcce4a77bc2a268d0f547e47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72626382107f4925bf2aced49b268620.setIcon(icon_91dd8915fcce4a77bc2a268d0f547e47);
+        
+    
+        var popup_7a610e0308cc4f88bb521819ebb69282 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b25a877cdce14cb8a2c81905006fd16f = $(`<div id="html_b25a877cdce14cb8a2c81905006fd16f" style="width: 100.0%; height: 100.0%;">Westminster Abbey, London</div>`)[0];
+            popup_7a610e0308cc4f88bb521819ebb69282.setContent(html_b25a877cdce14cb8a2c81905006fd16f);
+        
+
+        marker_72626382107f4925bf2aced49b268620.bindPopup(popup_7a610e0308cc4f88bb521819ebb69282)
+        ;
+
+        
+    
+    
+            var marker_82730d069f784ca98c2848858ac2c348 = L.marker(
+                [51.50072919999999, -0.1246254],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_589e3b99e979480283dbd667213e10e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82730d069f784ca98c2848858ac2c348.setIcon(icon_589e3b99e979480283dbd667213e10e8);
+        
+    
+        var popup_c928f183e5144c02ab697b6c6d719dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf5e779993f04cba83eb11eac0478c0b = $(`<div id="html_bf5e779993f04cba83eb11eac0478c0b" style="width: 100.0%; height: 100.0%;">Big Ben, London</div>`)[0];
+            popup_c928f183e5144c02ab697b6c6d719dc3.setContent(html_bf5e779993f04cba83eb11eac0478c0b);
+        
+
+        marker_82730d069f784ca98c2848858ac2c348.bindPopup(popup_c928f183e5144c02ab697b6c6d719dc3)
+        ;
+
+        
+    
+    
+            var marker_7630a7aa13ce43b893b37fc34a561f56 = L.marker(
+                [51.5032973, -0.1195537],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_e0a1f60cf0724604a872c523fc25f9bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7630a7aa13ce43b893b37fc34a561f56.setIcon(icon_e0a1f60cf0724604a872c523fc25f9bd);
+        
+    
+        var popup_a4958b35cc0e4eaebe97ceb67be022f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_417a4b80776a4f2f8cad6114572fdf46 = $(`<div id="html_417a4b80776a4f2f8cad6114572fdf46" style="width: 100.0%; height: 100.0%;">London Eye</div>`)[0];
+            popup_a4958b35cc0e4eaebe97ceb67be022f9.setContent(html_417a4b80776a4f2f8cad6114572fdf46);
+        
+
+        marker_7630a7aa13ce43b893b37fc34a561f56.bindPopup(popup_a4958b35cc0e4eaebe97ceb67be022f9)
+        ;
+
+        
+    
+    
+            var marker_dcb0d824d94b4c29a69daa9811c346b5 = L.marker(
+                [51.50811239999999, -0.0759493],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_44c3a07fbfb74435abedd7d2030e715f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcb0d824d94b4c29a69daa9811c346b5.setIcon(icon_44c3a07fbfb74435abedd7d2030e715f);
+        
+    
+        var popup_9356a707f3ac45ecb52f4186eeebd032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1611f69310a4473aa52f8f650724abd3 = $(`<div id="html_1611f69310a4473aa52f8f650724abd3" style="width: 100.0%; height: 100.0%;">Tower of London</div>`)[0];
+            popup_9356a707f3ac45ecb52f4186eeebd032.setContent(html_1611f69310a4473aa52f8f650724abd3);
+        
+
+        marker_dcb0d824d94b4c29a69daa9811c346b5.bindPopup(popup_9356a707f3ac45ecb52f4186eeebd032)
+        ;
+
+        
+    
+    
+            var marker_a2fb4f1e645444bc8ac91515cda5efc2 = L.marker(
+                [51.508039, -0.128069],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_6c21388846da4878ae9b5bee56270df1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2fb4f1e645444bc8ac91515cda5efc2.setIcon(icon_6c21388846da4878ae9b5bee56270df1);
+        
+    
+        var popup_639a05e98c134634b7b4f546d9580d3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60245edbeae437b90ec16bde799145e = $(`<div id="html_b60245edbeae437b90ec16bde799145e" style="width: 100.0%; height: 100.0%;">Trafalgar Square, London</div>`)[0];
+            popup_639a05e98c134634b7b4f546d9580d3f.setContent(html_b60245edbeae437b90ec16bde799145e);
+        
+
+        marker_a2fb4f1e645444bc8ac91515cda5efc2.bindPopup(popup_639a05e98c134634b7b4f546d9580d3f)
+        ;
+
+        
+    
+    
+            var marker_5060c575756c4f83989eb44229accc53 = L.marker(
+                [51.50892899999999, -0.128299],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_e121ca6f04434ef5862b1f41790c4d16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5060c575756c4f83989eb44229accc53.setIcon(icon_e121ca6f04434ef5862b1f41790c4d16);
+        
+    
+        var popup_d57233ae2ead47cb9bfa47c031f2d02b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86b1dee86b7d476bb0628e0306cc02b8 = $(`<div id="html_86b1dee86b7d476bb0628e0306cc02b8" style="width: 100.0%; height: 100.0%;">National Gallery, London</div>`)[0];
+            popup_d57233ae2ead47cb9bfa47c031f2d02b.setContent(html_86b1dee86b7d476bb0628e0306cc02b8);
+        
+
+        marker_5060c575756c4f83989eb44229accc53.bindPopup(popup_d57233ae2ead47cb9bfa47c031f2d02b)
+        ;
+
+        
+    
+    
+            var marker_98697593ad1a42898dc89285a99f2dec = L.marker(
+                [51.509998, -0.1350018],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_386df72562aa4d5f85c4deffaceb419e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98697593ad1a42898dc89285a99f2dec.setIcon(icon_386df72562aa4d5f85c4deffaceb419e);
+        
+    
+        var popup_b9dfb236c94b42239319ad397d908d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e21d78ae7a2e4b2f91a290b824578556 = $(`<div id="html_e21d78ae7a2e4b2f91a290b824578556" style="width: 100.0%; height: 100.0%;">Piccadilly Circus</div>`)[0];
+            popup_b9dfb236c94b42239319ad397d908d89.setContent(html_e21d78ae7a2e4b2f91a290b824578556);
+        
+
+        marker_98697593ad1a42898dc89285a99f2dec.bindPopup(popup_b9dfb236c94b42239319ad397d908d89)
+        ;
+
+        
+    
+    
+            var marker_70a1b1a598634af3b0bb933b52fd4801 = L.marker(
+                [51.5072682, -0.1657303],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_728804a2381e44e68ba205833062415a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70a1b1a598634af3b0bb933b52fd4801.setIcon(icon_728804a2381e44e68ba205833062415a);
+        
+    
+        var popup_96e8bbb5e7c5461380ff10ad2ac68de9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe2e9ac8c5a54b49b5b3918089fb3db6 = $(`<div id="html_fe2e9ac8c5a54b49b5b3918089fb3db6" style="width: 100.0%; height: 100.0%;">Hyde Park, London</div>`)[0];
+            popup_96e8bbb5e7c5461380ff10ad2ac68de9.setContent(html_fe2e9ac8c5a54b49b5b3918089fb3db6);
+        
+
+        marker_70a1b1a598634af3b0bb933b52fd4801.bindPopup(popup_96e8bbb5e7c5461380ff10ad2ac68de9)
+        ;
+
+        
+    
+    
+            var marker_4157c30640134fa4a73b4f9e5bc0a7c3 = L.marker(
+                [51.501364, -0.14189],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_05719af698084c80af27faeacb3c1352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4157c30640134fa4a73b4f9e5bc0a7c3.setIcon(icon_05719af698084c80af27faeacb3c1352);
+        
+    
+        var popup_6f1319ef0bb44a139f6e83f49dd140d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03db8dd3f9164c71aa8ace7b11b3fd81 = $(`<div id="html_03db8dd3f9164c71aa8ace7b11b3fd81" style="width: 100.0%; height: 100.0%;">Buckingham Palace, London</div>`)[0];
+            popup_6f1319ef0bb44a139f6e83f49dd140d7.setContent(html_03db8dd3f9164c71aa8ace7b11b3fd81);
+        
+
+        marker_4157c30640134fa4a73b4f9e5bc0a7c3.bindPopup(popup_6f1319ef0bb44a139f6e83f49dd140d7)
+        ;
+
+        
+    
+    
+            var marker_dc31c7fe2b834493b66a0e0c61f06fdd = L.marker(
+                [51.4986769, -0.1289446],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_ee09adfec4a84abba10ecb71835bab55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc31c7fe2b834493b66a0e0c61f06fdd.setIcon(icon_ee09adfec4a84abba10ecb71835bab55);
+        
+    
+        var popup_7fad28d1e5d34ce38c2483f1a25156f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3710a01763f482892545e299cbeeb3e = $(`<div id="html_a3710a01763f482892545e299cbeeb3e" style="width: 100.0%; height: 100.0%;">Westminster Abbey, London</div>`)[0];
+            popup_7fad28d1e5d34ce38c2483f1a25156f0.setContent(html_a3710a01763f482892545e299cbeeb3e);
+        
+
+        marker_dc31c7fe2b834493b66a0e0c61f06fdd.bindPopup(popup_7fad28d1e5d34ce38c2483f1a25156f0)
+        ;
+
+        
+    
+    
+            var marker_8675453314c54aa08c78c52862b7d704 = L.marker(
+                [51.50072919999999, -0.1246254],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_76d27a96fb1a4ed29e7d00a41e204ed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8675453314c54aa08c78c52862b7d704.setIcon(icon_76d27a96fb1a4ed29e7d00a41e204ed4);
+        
+    
+        var popup_eb86e8dabc4d4b01838614bc85c77cbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95b7697e26cd468fb65fdf15df4a0a96 = $(`<div id="html_95b7697e26cd468fb65fdf15df4a0a96" style="width: 100.0%; height: 100.0%;">Big Ben, London</div>`)[0];
+            popup_eb86e8dabc4d4b01838614bc85c77cbb.setContent(html_95b7697e26cd468fb65fdf15df4a0a96);
+        
+
+        marker_8675453314c54aa08c78c52862b7d704.bindPopup(popup_eb86e8dabc4d4b01838614bc85c77cbb)
+        ;
+
+        
+    
+    
+            var marker_63997ea87235477ab661359b7df5bafd = L.marker(
+                [51.5032973, -0.1195537],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_3772eee643cf4f7aab89c43463c0a910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63997ea87235477ab661359b7df5bafd.setIcon(icon_3772eee643cf4f7aab89c43463c0a910);
+        
+    
+        var popup_7438eb4a28974eba95b7e1501bce6131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93a99e54a17545648dafd569b51193ae = $(`<div id="html_93a99e54a17545648dafd569b51193ae" style="width: 100.0%; height: 100.0%;">London Eye</div>`)[0];
+            popup_7438eb4a28974eba95b7e1501bce6131.setContent(html_93a99e54a17545648dafd569b51193ae);
+        
+
+        marker_63997ea87235477ab661359b7df5bafd.bindPopup(popup_7438eb4a28974eba95b7e1501bce6131)
+        ;
+
+        
+    
+    
+            var marker_cf760cd65ec94501a33e804f4270a756 = L.marker(
+                [51.50811239999999, -0.0759493],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_0b9d3600e696439eb5d0867b39a74066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf760cd65ec94501a33e804f4270a756.setIcon(icon_0b9d3600e696439eb5d0867b39a74066);
+        
+    
+        var popup_6978f9a63cf443699aedca8610af1c28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0167dd887cb0456ba0105b98edf2e110 = $(`<div id="html_0167dd887cb0456ba0105b98edf2e110" style="width: 100.0%; height: 100.0%;">Tower of London</div>`)[0];
+            popup_6978f9a63cf443699aedca8610af1c28.setContent(html_0167dd887cb0456ba0105b98edf2e110);
+        
+
+        marker_cf760cd65ec94501a33e804f4270a756.bindPopup(popup_6978f9a63cf443699aedca8610af1c28)
+        ;
+
+        
+    
+    
+            var marker_e60b9ab04ff7479f888acfdbd39385db = L.marker(
+                [51.508039, -0.128069],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_2dd1eadd35424d15b3790ae7b3dabc26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e60b9ab04ff7479f888acfdbd39385db.setIcon(icon_2dd1eadd35424d15b3790ae7b3dabc26);
+        
+    
+        var popup_c56f700769aa4911a405b985564b0a1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_156026ee860b4eff922d5b6e167d614b = $(`<div id="html_156026ee860b4eff922d5b6e167d614b" style="width: 100.0%; height: 100.0%;">Trafalgar Square, London</div>`)[0];
+            popup_c56f700769aa4911a405b985564b0a1e.setContent(html_156026ee860b4eff922d5b6e167d614b);
+        
+
+        marker_e60b9ab04ff7479f888acfdbd39385db.bindPopup(popup_c56f700769aa4911a405b985564b0a1e)
+        ;
+
+        
+    
+    
+            var marker_99d0b3d389ef4ad68e8aef005cdd54b7 = L.marker(
+                [51.50892899999999, -0.128299],
+                {}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var icon_1613edc0f5284c0fa1384dd4b2e9e346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99d0b3d389ef4ad68e8aef005cdd54b7.setIcon(icon_1613edc0f5284c0fa1384dd4b2e9e346);
+        
+    
+        var popup_026a170f335f4397bdeed9c1b6dadd1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32df960134894c809457380d80c3fca6 = $(`<div id="html_32df960134894c809457380d80c3fca6" style="width: 100.0%; height: 100.0%;">National Gallery, London</div>`)[0];
+            popup_026a170f335f4397bdeed9c1b6dadd1c.setContent(html_32df960134894c809457380d80c3fca6);
+        
+
+        marker_99d0b3d389ef4ad68e8aef005cdd54b7.bindPopup(popup_026a170f335f4397bdeed9c1b6dadd1c)
+        ;
+
+        
+    
+    
+            var poly_line_49fb9def923240f1bd34670195eef6be = L.polyline(
+                [[51.509998, -0.1350018], [51.5072682, -0.1657303]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_2e347b0c20164ba2a7a0b485e9c270e5 = L.polyline(
+                [[51.5072682, -0.1657303], [51.501364, -0.14189]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_78bc216fb256427ebf9783a0106fe9aa = L.polyline(
+                [[51.501364, -0.14189], [51.4986769, -0.1289446]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_25c6920a1a6a4ae388d1c025113bf968 = L.polyline(
+                [[51.4986769, -0.1289446], [51.50072919999999, -0.1246254]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_997cb1a4f6d84d009325501ff50b98a4 = L.polyline(
+                [[51.50072919999999, -0.1246254], [51.5032973, -0.1195537]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_08719d28ff1c4ab9b77c152716cf184f = L.polyline(
+                [[51.5032973, -0.1195537], [51.50811239999999, -0.0759493]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_afca2386359d4c55a1c6fa7aa749d731 = L.polyline(
+                [[51.50811239999999, -0.0759493], [51.508039, -0.128069]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_c8d3dcd8dbc74052b0bcd43f51195b52 = L.polyline(
+                [[51.508039, -0.128069], [51.50892899999999, -0.128299]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+    
+            var poly_line_9083755dc1e443209c1ad85c13a3b535 = L.polyline(
+                [[51.50892899999999, -0.128299], [51.509998, -0.1350018]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_97a2a15ea5f54a86b947b53b0776c0e6);
+        
+</script>
