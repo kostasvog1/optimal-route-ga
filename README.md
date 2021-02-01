@@ -38,5 +38,5 @@ OptimalRoute_london_attractions.draw_optimal_route_map()
 OptimalRoute_london_attractions.display_optimal_route_map()
 
 ```
-![alt text](https://github.com/kostasvog1/optimal-route-ga/blob/master/plots/optimal_route_ga_demo_img1.PNG?raw=true)
+![demo img](https://github.com/kostasvog1/optimal-route-ga/blob/main/plots/optimal_route_ga_demo_img1.PNG?raw=true)
 
